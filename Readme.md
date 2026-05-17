@@ -30,9 +30,11 @@
 ## Запуск
 
 ```bash
-psql -U postgres
-CREATE DATABASE network_monitoring;
-\c network_monitoring
+Для wsl:
+sudo -U postgres psql
+
+CREATE DATABASE monitoring;
+\c monitoring
 \i schema.sql
 \i data.sql
 \i queries.sql
